@@ -12,9 +12,9 @@ document.getElementById("title").style.color="green";
 
 // Change the font case for h3 title tags to
 // uppercase
-document.getElementById("fruits").style.transform="uppercase";
+document.getElementById("fruits").style.textTransform="uppercase";
 
-document.getElementById("vegies").style.transform="uppercase"
+document.getElementById("vegies").style.textTransform="uppercase"
 
 // Add one more fruit to the fruits list
 let fruit =document.createElement("li");
